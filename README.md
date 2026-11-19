@@ -1,6 +1,6 @@
-# appearant.works
+# appearent.com
 
-One-page site for Appearant 梨所當然, a game localization studio.
+One-page site for Appearent 梨所當然, a game localization studio.
 
 Static HTML, no build step. Deploys to GitHub Pages from the repo root.
 
@@ -9,12 +9,16 @@ Static HTML, no build step. Deploys to GitHub Pages from the repo root.
 This folder is the **contents** of a separate public GitHub repo, not a subfolder of it.
 `index.html` must sit at that repo's root.
 
-Live at `https://appearant.works`, deployed from **`github.com/ian240/appearantworks`**
-(no hyphen).
+Live at `https://appearent.com`, deployed from **`github.com/appearent/pearsite`**.
 
 1. Copy everything here into that repo
 2. Settings → Pages → Deploy from a branch → `main` → `/ (root)`
-3. Settings → Pages → Custom domain → `appearant.works` → Enforce HTTPS
+3. Settings → Pages → Custom domain → `appearent.com` → Enforce HTTPS
+
+The studio was renamed from Appearant to Appearent on 2026-11-19. The old domain,
+`appearant.works`, is kept registered and permanently forwards (301) to
+`https://appearent.com` through Gandi web forwarding. `hello@appearent.com` is an alias
+of the `ian@appearent.com` mailbox in Gandi Mail.
 
 Full procedure, including DNS and Gandi Mail, is in
 [`../domain-email-website-setup.md`](../domain-email-website-setup.md).

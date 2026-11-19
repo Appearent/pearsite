@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://appearant.works/sitemap.xml
+Sitemap: https://appearent.com/sitemap.xml
