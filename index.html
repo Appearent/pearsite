@@ -64,12 +64,14 @@
   /* hero */
   .hero{padding-top:44px;}
   .lede{font-size:clamp(1.15rem,2.5vw,1.45rem);line-height:1.55;color:var(--ink);max-width:32ch;}
-  .btn{
-    display:inline-block;margin-top:12px;padding:15px 30px;border-radius:999px;
-    background:var(--olive);color:var(--paper);font-weight:700;font-size:1.02rem;
+  .hero .points{margin-bottom:12px;}
+  .cta{
+    display:block;padding:18px 24px;border-radius:var(--radius);
+    background:var(--olive);color:var(--paper);font-weight:700;font-size:1.05rem;
     text-decoration:none;
   }
-  .btn:hover{background:#55624c;text-decoration:none;}
+  .cta:hover{background:#55624c;text-decoration:none;}
+  .cta:focus-visible{outline:3px solid var(--ink);outline-offset:3px;}
 
   hr{border:0;border-top:1px solid var(--seal);opacity:.55;margin:0 0 60px;}
 
@@ -119,7 +121,7 @@
     html{scroll-behavior:auto;}
   }
   @media (prefers-reduced-motion:no-preference){
-    a,.btn{transition:background .15s ease;}
+    a,.cta{transition:background .15s ease;}
   }
 </style>
 </head>
@@ -144,8 +146,12 @@
   <section class="hero">
     <div class="wrap">
       <h1>appear as intended.</h1>
-      <p class="lede">Translation and marketing writing, in every language your players read.</p>
-      <a class="btn" href="mailto:hello@appearent.com?subject=Localization%20enquiry">Talk to us</a>
+      <p class="lede">Game localization, in every language your players speak.</p>
+      <ul class="points">
+        <li>Led by translators, not account managers.</li>
+        <li>Tested in your actual build by native-speaker gamers.</li>
+      </ul>
+      <a class="cta" href="mailto:hello@appearent.com?subject=Free%20consultation">Free consultations available. Talk to us <span aria-hidden="true">→</span></a>
     </div>
   </section>
 
@@ -339,17 +345,6 @@
         </article>
 
       </div>
-    </div>
-  </section>
-
-  <section>
-    <div class="wrap">
-      <hr>
-      <h2>The people behind every package.</h2>
-      <ul class="points">
-        <li>Translators run your project, not account managers.</li>
-        <li>Native-speaker gamers who test in your actual build.</li>
-      </ul>
     </div>
   </section>
 
