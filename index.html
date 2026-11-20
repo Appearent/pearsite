@@ -102,6 +102,15 @@
   .stages li.opt{border:1.5px dashed var(--olive);color:var(--olive);}
   .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;}
 
+  /* languages: core (both ways) and target (into only) */
+  .langs{display:grid;gap:32px;}
+  .lang-group h3{margin-bottom:4px;}
+  .lang-group h3 span{color:var(--seal);margin-right:6px;}
+  .lang-group .note{margin:0 0 14px;font-size:1rem;}
+  .chips{display:flex;flex-wrap:wrap;gap:10px;list-style:none;margin:0;padding:0;}
+  .chips li{background:var(--taupe);color:var(--ink);border-radius:999px;padding:8px 18px;font-size:1rem;line-height:1.3;}
+  .chips.core li{background:var(--olive);color:var(--paper);font-weight:700;}
+
   /* games */
   .games{display:grid;gap:28px;}
   .game{background:var(--taupe);border-radius:var(--radius);overflow:hidden;display:grid;}
@@ -169,6 +178,40 @@
         <li>Tested in your actual build by native-speaker gamers.</li>
       </ul>
       <a class="cta" href="mailto:hello@appearent.com?subject=Consultation">Request a consultation <span aria-hidden="true">→</span></a>
+    </div>
+  </section>
+
+  <section id="languages">
+    <div class="wrap">
+      <hr>
+      <h2>Languages</h2>
+      <div class="langs">
+        <div class="lang-group">
+          <h3><span aria-hidden="true">⇄</span> Translate both ways</h3>
+          <p class="note">Between any of these, in either direction.</p>
+          <ul class="chips core">
+            <li>Japanese</li>
+            <li>English</li>
+            <li>Korean</li>
+            <li>Simplified Chinese</li>
+            <li>Traditional Chinese</li>
+          </ul>
+        </div>
+        <div class="lang-group">
+          <h3><span aria-hidden="true">→</span> Translate into</h3>
+          <p class="note">From any language above.</p>
+          <ul class="chips">
+            <li>French</li>
+            <li>Italian</li>
+            <li>German</li>
+            <li>Spanish (Spain &amp; Latin America)</li>
+            <li>Brazilian Portuguese</li>
+            <li>Russian</li>
+            <li>Ukrainian</li>
+            <li>Thai</li>
+          </ul>
+        </div>
+      </div>
     </div>
   </section>
 
