@@ -21,6 +21,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@400;700&family=IBM+Plex+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+<script src="site.js" defer></script>
 </head>
 <body>
 
@@ -37,8 +38,13 @@
         <a href="#contact">contact</a>
       </nav>
       <nav class="lang-switch" aria-label="Language">
-        <a href="./" lang="en" hreflang="en" aria-current="page" aria-label="English" title="English">EN</a>
-        <a href="zh-hant/" lang="zh-Hant" hreflang="zh-Hant" aria-label="繁體中文" title="繁體中文">繁體</a>
+        <details>
+          <summary><span class="sr">Language: </span>EN</summary>
+          <ul>
+            <li><a href="./" lang="en" hreflang="en" aria-current="page">English</a></li>
+            <li><a href="zh-hant/" lang="zh-Hant" hreflang="zh-Hant">繁體中文</a></li>
+          </ul>
+        </details>
       </nav>
     </div>
   </div>
