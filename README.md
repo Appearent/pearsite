@@ -27,7 +27,8 @@ Full procedure, including DNS and Gandi Mail, is in
 
 | File | Purpose |
 |---|---|
-| `index.html` | The whole site. Inline CSS, no dependencies except Google Fonts. |
+| `index.html` | The English page (the whole site's content). No dependencies except Google Fonts. |
+| `style.css` | All the styling, shared by every language page. |
 | `CNAME` | Tells GitHub Pages the custom domain. Do not delete. |
 | `.nojekyll` | Skips Jekyll processing. |
 | `assets/seal-*.png` | Seal-only no-border logo, from `../assets/Logo/Logo Seal/`. |
