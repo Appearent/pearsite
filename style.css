@@ -42,6 +42,8 @@
   nav{display:flex;gap:18px;font-size:1rem;}
   nav a{text-decoration:none;}
   nav a:hover{text-decoration:underline;}
+  .header-right{display:flex;align-items:center;gap:12px 32px;flex-wrap:wrap;}
+  .lang-switch a[aria-current="page"]{font-weight:700;color:var(--ink);}
 
   /* hero */
   .hero{padding-top:44px;}
